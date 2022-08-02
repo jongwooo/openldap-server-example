@@ -36,4 +36,7 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+### OpenLDAP ###
+data/
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,jetbrains
