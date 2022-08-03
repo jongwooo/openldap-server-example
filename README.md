@@ -8,11 +8,18 @@ Setup and Configure OpenLDAP using Docker.
 
 ## Quick Start
 
-Run in this directory:
+You can start the containers with the `up` command in daemon mode (by adding `-d` as an argument) or by using the `start` command:
 
 ```
 docker-compose up -d
 ```
+
+You can also visit [http://127.0.0.1:8080](http://127.0.0.1:8080) to access [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page) after starting the containers.
+
+### Authentication
+
+- Login DN: `cn=<USER>,dc=example,dc=org`
+- Password: `<PASSWORD>`
 
 ## License
 
